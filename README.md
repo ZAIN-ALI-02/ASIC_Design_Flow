@@ -22,8 +22,67 @@ Create a design in any hardware descriptive language, after that follow these st
 make mount
 ```
 
-### 2. Initiating ASIC Flow
+### 2. Initializing ASIC Flow
 
 ```
 ./flow.tcl -design <folder_name> -add_to_designs -init_design_config
+```
+
+### 3. Creating Design File
+
+- Move to the folder `designs` containing `<folder_name>`.
+- Open the file `config.json` and edit the details mentioned according to the design file.
+- Move the folder `src` and create your design file in that folder.
+
+### 4. Initiating ASIC Flow
+
+```
+./flow.tcl -design <folder_name> -tag first_run -interactive
+```
+
+#### Step 1: Synthesis
+
+```
+run_synthesis
+```
+
+#### Step 2: Floorplan
+```
+run_floorplan
+```
+
+#### Step 3: Placement
+
+```
+run_placement
+```
+
+#### Step 4: Clock Tree Synthesis
+
+```
+run_cts
+```
+
+#### Step 5: Routing
+
+```
+run_routing
+```
+
+#### Step 6: GDS Generation
+
+```
+run_magic
+```
+
+#### Step 7: Resistance Capacitance Extraction
+
+```
+run_rc
+```
+
+### 5. Exiting ASIC Flow
+
+```
+exit
 ```
