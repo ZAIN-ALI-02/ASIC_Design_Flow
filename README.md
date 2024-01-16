@@ -9,8 +9,13 @@ A typical design flow follows a structure shown below and can be broken down int
 
 ## Pre-Requisites
 
-- [Docker](https://github.com/The-OpenROAD-Project/OpenLane)
-- [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
+- [Docker Installation](https://github.com/The-OpenROAD-Project/OpenLane)
+- [OpenLane Installation](https://github.com/The-OpenROAD-Project/OpenLane)
+
+## Documentation and Lectures
+
+- [Docker Documentation](https://armleo-openlane.readthedocs.io/en/latest/)
+- [OpenLane Lectures](https://www.youtube.com/playlist?list=PL6lEfVxcwjW3tOnmmU_4WAqRYppDvGLHM)
 
 ## Execution
 
