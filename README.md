@@ -12,10 +12,15 @@ A typical design flow follows a structure shown below and can be broken down int
 - [Docker Installation](https://github.com/The-OpenROAD-Project/OpenLane)
 - [OpenLane Installation](https://github.com/The-OpenROAD-Project/OpenLane)
 
-## Documentation and Lectures
+## Documentation
 
-- [Docker Documentation](https://armleo-openlane.readthedocs.io/en/latest/)
-- [OpenLane Lectures](https://www.youtube.com/playlist?list=PL6lEfVxcwjW3tOnmmU_4WAqRYppDvGLHM)
+- [VLSI Back-End Adventure](https://vlsi-backend-adventure.com/)
+- [OpenLane Documentation](https://armleo-openlane.readthedocs.io/en/latest/)
+
+## Lectures
+
+- [Digital VLSI Design (RTL to GDS)](https://www.youtube.com/playlist?list=PLZU5hLL_713x0_AV_rVbay0pWmED7992G)
+- [OpenLane Lectures in Urdu](https://www.youtube.com/playlist?list=PL6lEfVxcwjW3tOnmmU_4WAqRYppDvGLHM)
 
 ## Execution
 
@@ -91,3 +96,8 @@ run_rc
 ```
 exit
 ```
+
+## Instructor
+
+[Sajjad Ahmed](https://github.com/sajjadahmed677)
+
