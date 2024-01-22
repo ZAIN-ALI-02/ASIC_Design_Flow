@@ -24,7 +24,7 @@ A typical design flow follows a structure shown below and can be broken down int
 
 ## Execution
 
-Create a design in any hardware descriptive language, after that follow these steps:
+Create a design in Verilog language, change the directory to `OpenLane`, and then follow these steps:
 
 ### 1. Creating Container
 
@@ -42,7 +42,7 @@ make mount
 
 - Move to the folder `designs` containing `<folder_name>`.
 - Open the file `config.json` and edit the details mentioned according to the design file.
-- Move the folder `src` and create your design file in that folder.
+- Move to the folder `src` and create your design file in that folder.
 
 ### 4. Initiating ASIC Flow
 
