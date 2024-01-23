@@ -87,10 +87,28 @@ run_routing
 run_magic
 ```
 
-#### Step 7: Resistance Capacitance Extraction
+#### Step 7: Creating Netlist of GDS
 
 ```
-run_rc
+run_magic_spice_export
+```
+
+#### Step 8: DRC
+
+```
+run_magic_drc
+```
+
+#### Step 9: LVS
+
+```
+run_lvs
+```
+
+#### Step 10: Antenna Check
+
+```
+run_antenna_check
 ```
 
 ### 5. Exiting ASIC Flow
