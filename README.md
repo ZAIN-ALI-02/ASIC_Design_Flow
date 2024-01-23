@@ -46,6 +46,8 @@ make mount
 
 ### 4. Initiating ASIC Flow
 
+Change the directory to `OpenLane` and run the following commands:
+
 ```
 ./flow.tcl -design <folder_name> -tag first_run -interactive
 ```
